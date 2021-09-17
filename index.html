@@ -43,7 +43,9 @@
             <div class="description">点击右上角，<br />选择“在浏览器中打开”</div>
         </div>
         <div class="download-btn" @click="download()">点击下载</div>
-        <div style="font-size: 14px;text-align: center;position: fixed;bottom: 20%;">技术支持：天津世纪广源提供技术支持</div>
+        <div style="font-size: 14px;text-align: center;position: fixed;bottom: 20%;">
+            技术支持：长沙与方信息科技有限公司
+        </div>
     </div>
 </body>
 <script>
@@ -72,7 +74,7 @@
                     if (this.dtype === 0) {
                         var a = document.createElement("a");
                         a.download = "土桥镇应急.apk";
-                        a.href = "https://qiniu.csyfxx.com/wuqing_app_android.apk";
+                        a.href = "https://qiniu.csyfxx.com/rucheng_tuqiao_app.apk";
                         $("body").append(a); // 修复firefox中无法触发click
                         a.click();
                         $(a).remove()
